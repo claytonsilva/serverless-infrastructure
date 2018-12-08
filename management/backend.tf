@@ -4,6 +4,6 @@ terraform {
     bucket  = "crypto-resources-terraform"
     key     = "management/terraform.tfstate"
     region  = "us-east-2"
-		profile = "xdevel"
+    profile = "backend"
   }
 }
