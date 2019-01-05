@@ -6,5 +6,6 @@ terraform {
     dynamodb_table = "terraform_locks"
     region         = "us-east-2"
     profile        = "backend"
+    lock_table     = "terraform_locks"
   }
 }
