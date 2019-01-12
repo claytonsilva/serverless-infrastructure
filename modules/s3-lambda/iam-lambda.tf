@@ -7,7 +7,7 @@ data "template_file" "policy_s3_lambda" {
 }
 
 resource "aws_iam_policy" "lambda" {
-  name        = "lambda"
+  name        = "lambda-${terraform.env}"
   path        = "/"
   description = "Lambda repos."
   policy      = "${data.template_file.policy_s3_lambda.rendered}"

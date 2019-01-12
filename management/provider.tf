@@ -1,4 +1,4 @@
 provider "aws" {
-  region  = "${var.region}"
-  profile = "${terraform.env}"
+  region  = "${local.region}"
+  profile = "${local.profile}"
 }

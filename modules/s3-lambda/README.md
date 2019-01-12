@@ -7,6 +7,7 @@ this module create s3 bucket for lambda
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
+| name | name of the bucket for lambdas resources | string | `crypto-lambda-repository` | no |
 | region | region from resources | string | `us-east-2` | no |
 
 ## Outputs
