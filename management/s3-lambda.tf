@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "lambda" {
-  bucket = "crypto-lambda-repository"
+  bucket = "crypto-lambda-repository-faesin"
   acl    = "private"
 
   lifecycle_rule {
